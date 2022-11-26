@@ -13,6 +13,7 @@ export default function Thumbnail({ result }) {
         }
         height={1080}
         width={1920}
+        alt="/"
       />
       <div className="p-2">
         <p className=" max-w-md">{result.overview}</p>
